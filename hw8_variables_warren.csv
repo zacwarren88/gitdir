@@ -1,0 +1,309 @@
+Variable,vName,vclass,vtype,vDiscription
+1,Exp,,,Exp
+2,Year,plot,plot,Year
+3,Month,plot,,Month
+4,Plot,plot,plot,Plot number
+5,SpAdd,trt,trt,Number of species added
+6,C3,trt,photo,"Presence of C3 treatment species (1=Present, 0=Not present)"
+7,C4,trt,photo,"Presence of C4 treatment species (1=Present, 0=Not present)"
+8,Forb,trt,type,"Presence of forb treatment species (1=Present, 0=Not present)"
+9,Leg,trt,type,"Presence of legume treatment species (1=Present, 0=Not present)"
+10,TrtAchmi,trt,trtspp,"Presence of Achillea millefolium (1=Planted, 0=Not planted)"
+11,TrtAgrsm,trt,trtspp,"Presence of Agropyron smithii (1=Planted, 0=Not planted)"
+12,TrtAndge,trt,trtspp,"Presence of Andropogon gerardi (1=Planted, 0=Not planted)"
+13,TrtAnecy,trt,trtspp,"Presence of Anemone cylindrica (1=Planted, 0=Not planted)"
+14,TrtAsctu,trt,trtspp,"Presence of Asclepias tuberosa (1=Planted, 0=Not planted)"
+15,TrtAstaz,trt,trtspp,"Presence of Aster azureus (1=Planted, 0=Not planted)"
+16,TrtAstca,trt,trtspp,"Presence of Astragalus canadensis (1=Planted, 0=Not planted)"
+17,TrtBougr,trt,trtspp,"Presence of Bouteloua gracilis (1=Planted, 0=Not planted)"
+18,TrtBucda,trt,trtspp,"Presence of Buchloe dactyloides (1=Planted, 0=Not planted)"
+19,TrtCorpa,trt,trtspp,"Presence of Coreopsis palmata (1=Planted, 0=Not planted)"
+20,TrtElyca,trt,trtspp,"Presence of Elymus canadensis (1=Planted, 0=Not planted)"
+21,TrtEupco,trt,trtspp,"Presence of Euphorbia corollata (1=Planted, 0=Not planted)"
+22,TrtKoecr,trt,trtspp,"Presence of Koeleria cristata (1=Planted, 0=Not planted)"
+23,TrtLesca,trt,trtspp,"Presence of Lespedeza capitata (1=Planted, 0=Not planted)"
+24,TrtLiaas,trt,trtspp,"Presence of Liatris aspera (1=Planted, 0=Not planted)"
+25,TrtPanvi,trt,trtspp,"Presence of Panicum virgatum (1=Planted, 0=Not planted)"
+26,TrtPetpu,trt,trtspp,"Presence of Petalostemum purpureum (1=Planted, 0=Not planted)"
+27,TrtPoapr,trt,trtspp,"Presence of Poa pratensis (1=Planted, 0=Not planted)"
+28,TrtRudse,trt,trtspp,"Presence of Rudbeckia serotina (1=Planted, 0=Not planted)"
+29,TrtSchsc,trt,trtspp,"Presence of Schizachyrium scoparium (1=Planted, 0=Not planted)"
+30,TrtSolne,trt,trtspp,"Presence of Solidago nemoralis (1=Planted, 0=Not planted)"
+31,TrtSornu,trt,trtspp,"Presence of Sorghastrum nutans (1=Planted, 0=Not planted)"
+32,TrtSpocr,trt,trtspp,"Presence of Sporobolus cryptandrus (1=Planted, 0=Not planted)"
+33,TrtVicvi,trt,trtspp,"Presence of Vicia villosa (1=Planted, 0=Not planted)"
+34,PCSoil94,phys,soil,Percent soil carbon in 1994
+35,PNSoil94,phys,soil,Percent soil nitrogen in 1994
+36,TotBio,phys,BM,Aboveground living biomass (g/m2) plus root biomass (g/m2)
+37,AbvBio,phys,BM,Living aboveground biomass (g/m2)
+38,RootBioG,phys,BM,Root biomass (g)
+39,RootBio,phys,BM,Root biomass (g/m2) 0-30cm
+40,TotPCov,phys,PC,Mean Total absolute % cover of living vascular plants
+41,SR,phys,,Species richness based on absolute % cover
+42,EtoH,plant,,e to h based on absolute % cover
+43,H2O0_20,phys,soil,Soil moisture (%) 0-20cm
+44,H2O40_60,phys,soil,Soil moisture (%) 40-60cm
+45,NO30_20,phys,soil,Soil NO3 (mg/kg) 0-20cm
+46,NO340_60,phys,soil,Soil NO3 (mg/kg) 40-60cm
+47,PCBio,phys,BM,Percent carbon in living aboveground biomass
+48,PNBio,phys,BM,Percent nitrogen in living aboveground biomass
+49,PCRoot,phys,BM,Percent carbon in root biomass
+50,PNRoot,phys,BM,Percent nitrogen in root biomass
+51,PC0_20,phys,soil,Percent carbon in soil 0-20cm
+52,PN0_20,phys,soil,Percent nitrogen in soil 0-20cm
+53,PC40_60,phys,soil,Percent carbon in soil 40-60cm
+54,PN40_60,phys,soil,Percent nitrogen in soil 40-60cm
+55,PLight,phys,photo,Percent light penetration
+56,Acerrubr,SppPc,PC,Percent cover of Acer rubrum
+57,Achimill,SppPc,PC,Percent cover of Achillea millefolium(lanulosa)
+58,Agroalba,SppPc,PC,Percent cover of Agrostis alba
+59,Agrorepe,SppPc,PC,Percent cover of Agropyron repens
+60,Agroscab,SppPc,PC,Percent cover of Agrostis scabra
+61,Agrosmit,SppPc,PC,Percent cover of Agropyron smithii
+62,Agrostsp,SppPc,PC,Percent cover of Agrostis sp.
+63,Ambrarte,SppPc,PC,Percent cover of Ambrosia artemisiifolia elatior
+64,Amphbrac,SppPc,PC,Percent cover of Amphicarpa bracteata
+65,Andrgera,SppPc,PC,Percent cover of Andropogon gerardi
+66,Anemcyli,SppPc,PC,Percent cover of Anemone cylindrica
+67,Arabdiva,SppPc,PC,Percent cover of Arabis divaricarpa
+68,Arabissp,SppPc,PC,Percent cover of Arabis sp.
+69,Arisbasi,SppPc,PC,Percent cover of Aristida basiramea
+70,Aristisp,SppPc,PC,Percent cover of Aristida sp.
+71,Artecaud,SppPc,PC,Percent cover of Artemisia (caudata) campestris
+72,Arteludo,SppPc,PC,Percent cover of Artemisia ludoviciana
+73,Asclinca,SppPc,PC,Percent cover of Asclepias incarnata
+74,Ascloval,SppPc,PC,Percent cover of Asclepias ovalifolia
+75,Asclsyri,SppPc,PC,Percent cover of Asclepias syriaca
+76,Ascltube,SppPc,PC,Percent cover of Asclepias tuberosa
+77,Asteazur,SppPc,PC,Percent cover of Aster azureus
+78,Asteeric,SppPc,PC,Percent cover of Aster ericoides
+79,Astersp,SppPc,PC,Percent cover of Aster sp.
+80,Astrcana,SppPc,PC,Percent cover of Astragalus canadensis
+81,Baregrou,SppPc,PC,Percent cover of Bare ground
+82,Bertinca,SppPc,PC,Percent cover of Berteroa incana
+83,Boutcurt,SppPc,PC,Percent cover of Bouteloua curtipendula
+84,Boutgrac,SppPc,PC,Percent cover of Bouteloua gracilis
+85,Bouthirs,SppPc,PC,Percent cover of Bouteloua hirsuta
+86,Bromussp,SppPc,PC,Percent cover of Bromus sp.
+87,Buchdact,SppPc,PC,Percent cover of Buchloe dactyloides
+88,Calalong,SppPc,PC,Percent cover of Calamovilfa longifolia
+89,Carexsp,SppPc,PC,Percent cover of Carex sp.
+90,Cassfasc,SppPc,PC,Percent cover of Cassia fasciculata
+91,Chenalbu,SppPc,PC,Percent cover of Chenopodium album
+92,Chenlept,SppPc,PC,Percent cover of Chenopodium leptophyllum
+93,Chenopsp,SppPc,PC,Percent cover of Chenopodium sp.
+94,Corepalm,SppPc,PC,Percent cover of Coreopsis palmata
+95,Creptect,SppPc,PC,Percent cover of Crepis tectorum
+96,Cypefili,SppPc,PC,Percent cover of Cyperus filiculmis
+97,Cyperusp,SppPc,PC,Percent cover of Cyperus sp.
+98,Cypeschw,SppPc,PC,Percent cover of Cyperus schweinitzii
+99,Cypestri,SppPc,PC,Percent cover of Cyperus strigosus
+100,Desmcana,SppPc,PC,Percent cover of Desmodium canadense
+101,Digiisch,SppPc,PC,Percent cover of Digitaria ischaemum
+102,Digisang,SppPc,PC,Percent cover of Digitaria sanguinalis
+103,Digitasp,SppPc,PC,Percent cover of Digitaria sp.
+104,Disturb,SppPc,PC,Percent cover of Disturbance
+105,Elymcana,SppPc,PC,Percent cover of Elymus canadensis
+106,Equilaev,SppPc,PC,Percent cover of Equisetum laevigatum
+107,Eragspec,SppPc,PC,Percent cover of Eragrostis spectabilis
+108,Eragtric,SppPc,PC,Percent cover of Eragrostis trichodes
+109,Eriganuu,SppPc,PC,Percent cover of Erigeron anuus
+110,Erigcana,SppPc,PC,Percent cover of Erigeron canadensis
+111,Erigstri,SppPc,PC,Percent cover of Erigeron strigosus
+112,Euphcoro,SppPc,PC,Percent cover of Euphorbia corollata
+113,Euphglyp,SppPc,PC,Percent cover of Euphorbia glyptosperma
+114,Festrubr,SppPc,PC,Percent cover of Festuca rubra
+115,Festucsp,SppPc,PC,Percent cover of Festuca sp.
+116,Forbseed,SppPc,PC,Percent cover of Forb seedlings
+117,Fungi,SppPc,PC,Percent cover of Fungi
+118,Gnapobtu,SppPc,PC,Percent cover of Gnaphalium obtusifolium
+119,Hedehisp,SppPc,PC,Percent cover of Hedeoma hispida
+120,Junipesp,SppPc,PC,Percent cover of Juniperus sp.
+121,Koelcris,SppPc,PC,Percent cover of Koeleria cristata
+122,Lepidens,SppPc,PC,Percent cover of Lepidium densiflorum
+123,Lepidisp,SppPc,PC,Percent cover of Lepidium sp.
+124,Lepivirg,SppPc,PC,Percent cover of Lepidium virginicum
+125,Lespcapi,SppPc,PC,Percent cover of Lespedeza capitata
+126,Liataspe,SppPc,PC,Percent cover of Liatris aspera
+127,Liatpycn,SppPc,PC,Percent cover of Liatris pycnostachya
+128,Linavulg,SppPc,PC,Percent cover of Linaria vulgaris
+129,Lupipere,SppPc,PC,Percent cover of Lupinus perennis
+130,Lychalba,SppPc,PC,Percent cover of Lychnis alba
+131,Medicasp,SppPc,PC,Percent cover of Medicago sp.
+132,Medisati,SppPc,PC,Percent cover of Medicago sativa
+133,Melialba,SppPc,PC,Percent cover of Melilotus alba
+134,Melioffi,SppPc,PC,Percent cover of Melilotus officinalis
+135,Miscelsp,SppPc,PC,Percent cover of Miscellaneous sp.
+136,Miscesp1,SppPc,PC,Percent cover of Miscellaneous sp. 1
+137,Miscgras,SppPc,PC,Percent cover of Miscellaneous grasses
+138,Mischerb,SppPc,PC,Percent cover of Miscellaneous herbs
+139,Misclegu,SppPc,PC,Percent cover of Miscellaneous legumes
+140,Misclitt,SppPc,PC,Percent cover of Miscellaneous litter
+141,Miscsedg,SppPc,PC,Percent cover of Miscellaneous sedges
+142,Miscwood,SppPc,PC,Percent cover of Miscellaneous woody plants
+143,Mollvert,SppPc,PC,Percent cover of Mollugo verticillata
+144,Monafist,SppPc,PC,Percent cover of Monarda fistulosa
+145,Mosses,SppPc,PC,Percent cover of Mosses
+146,Mosslich,SppPc,PC,Percent cover of Mosses & lichens
+147,Oenobien,SppPc,PC,Percent cover of Oenothera biennis
+148,Oxalstri,SppPc,PC,Percent cover of Oxalis stricta
+149,Panicusp,SppPc,PC,Percent cover of Panicum sp.
+150,Paniolig,SppPc,PC,Percent cover of Panicum oligosanthes
+151,Paniperl,SppPc,PC,Percent cover of Panicum perlongum
+152,Panivirg,SppPc,PC,Percent cover of Panicum virgatum
+153,Paspcili,SppPc,PC,Percent cover of Paspalum ciliatifolium
+154,Pensgrac,SppPc,PC,Percent cover of Penstemon gracilis
+155,Pensgran,SppPc,PC,Percent cover of Penstemon grandiflorus
+156,Petacand,SppPc,PC,Percent cover of Petalostemum candidum
+157,Petapurp,SppPc,PC,Percent cover of Petalostemum purpureum
+158,Physalsp,SppPc,PC,Percent cover of Physalis sp.
+159,Physhete,SppPc,PC,Percent cover of Physalis heterophylla
+160,Physvirg,SppPc,PC,Percent cover of Physalis virginiana
+161,Poacompr,SppPc,PC,Percent cover of Poa compressa
+162,Poapalus,SppPc,PC,Percent cover of Poa palustris
+163,Poaprate,SppPc,PC,Percent cover of Poa pratensis
+164,Polyconv,SppPc,PC,Percent cover of Polygonum convolvulus
+165,Polypoly,SppPc,PC,Percent cover of Polygala polygama
+166,Polytenu,SppPc,PC,Percent cover of Polygonum tenue
+167,Popudelt,SppPc,PC,Percent cover of Populus deltoides
+168,Potentsp,SppPc,PC,Percent cover of Potentilla sp.
+169,Rudbsero,SppPc,PC,Percent cover of Rudbeckia serotina
+170,Rumeacet,SppPc,PC,Percent cover of Rumex acetosella
+171,Sagilati,SppPc,PC,Percent cover of Sagittaria latifolia
+172,Schiscop,SppPc,PC,Percent cover of Schizachyrium scoparium
+173,Setalute,SppPc,PC,Percent cover of Setaria lutescens (glauca)
+174,Setarisp,SppPc,PC,Percent cover of Setaria sp.
+175,Setaviri,SppPc,PC,Percent cover of Setaria viridis
+176,Sileanti,SppPc,PC,Percent cover of Silene antirrhina
+177,Solicana,SppPc,PC,Percent cover of Solidago canadensis
+178,Solidasp,SppPc,PC,Percent cover of Solidago sp.
+179,Solimiss,SppPc,PC,Percent cover of Solidago missouriensis
+180,Solinemo,SppPc,PC,Percent cover of Solidago nemoralis
+181,Solirigi,SppPc,PC,Percent cover of Solidago rigida
+182,Sorgnuta,SppPc,PC,Percent cover of Sorghastrum nutans
+183,Sporcryp,SppPc,PC,Percent cover of Sporobolus cryptandrus
+184,Stipspar,SppPc,PC,Percent cover of Stipa spartea
+185,Taraoffi,SppPc,PC,Percent cover of Taraxicum officinalis
+186,Tradocci,SppPc,PC,Percent cover of Tradescantia occidentalis
+187,Trifolsp,SppPc,PC,Percent cover of Trifolium sp.
+188,Trifprat,SppPc,PC,Percent cover of Trifolium pratense
+189,Trifrepe,SppPc,PC,Percent cover of Trifolium repens
+190,Ulmuamer,SppPc,PC,Percent cover of Ulmus americana
+191,Verbthap,SppPc,PC,Percent cover of Verbascum thapsus
+192,Viciangu,SppPc,PC,Percent cover of Vicia angustifolia
+193,Vicivill,SppPc,PC,Percent cover of Vicia villosa
+194,Achimillb,sppB,BM,Aboveground biomass (g/m2) of Achillea millefolium(lanulosa)
+195,Agroalbab,sppB,BM,Aboveground biomass (g/m2) of Agrostis alba
+196,Agrorepeb,sppB,BM,Aboveground biomass (g/m2) of Agropyron repens
+197,Agroscabb,sppB,BM,Aboveground biomass (g/m2) of Agrostis scabra
+198,Agrosmitb,sppB,BM,Aboveground biomass (g/m2) of Agropyron smithii
+199,Agrostspb,sppB,BM,Aboveground biomass (g/m2) of Agrostis sp.
+200,Ambrarteb,sppB,BM,Aboveground biomass (g/m2) of Ambrosia artemisiifolia elatior
+201,Andrgerab,sppB,BM,Aboveground biomass (g/m2) of Andropogon gerardi
+202,Anemcylib,sppB,BM,Aboveground biomass (g/m2) of Anemone cylindrica
+203,Arabisspb,sppB,BM,Aboveground biomass (g/m2) of Arabis sp.
+204,Arenlateb,sppB,BM,Aboveground biomass (g/m2) of Arenaria lateriflora
+205,Arisbasib,sppB,BM,Aboveground biomass (g/m2) of Aristida basiramea
+206,Aristispb,sppB,BM,Aboveground biomass (g/m2) of Aristida sp.
+207,Ascltubeb,sppB,BM,Aboveground biomass (g/m2) of Asclepias tuberosa
+208,Asteazurb,sppB,BM,Aboveground biomass (g/m2) of Aster azureus
+209,Astrcanab,sppB,BM,Aboveground biomass (g/m2) of Astragalus canadensis
+210,Bertincab,sppB,BM,Aboveground biomass (g/m2) of Berteroa incana
+211,Boutgracb,sppB,BM,Aboveground biomass (g/m2) of Bouteloua gracilis
+212,Brominerb,sppB,BM,Aboveground biomass (g/m2) of Bromus inermis
+213,Buchdactb,sppB,BM,Aboveground biomass (g/m2) of Buchloe dactyloides
+214,Carexspb,sppB,BM,Aboveground biomass (g/m2) of Carex sp.
+215,Chenalbub,sppB,BM,Aboveground biomass (g/m2) of Chenopodium album
+216,Chenleptb,sppB,BM,Aboveground biomass (g/m2) of Chenopodium leptophyllum
+217,Corepalmb,sppB,BM,Aboveground biomass (g/m2) of Coreopsis palmata
+218,Cypefilib,sppB,BM,Aboveground biomass (g/m2) of Cyperus filiculmis
+219,Cyperuspb,sppB,BM,Aboveground biomass (g/m2) of Cyperus sp.
+220,Cypeschwb,sppB,BM,Aboveground biomass (g/m2) of Cyperus schweinitzii
+221,Digiischb,sppB,BM,Aboveground biomass (g/m2) of Digitaria ischaemum
+222,Digisangb,sppB,BM,Aboveground biomass (g/m2) of Digitaria sanguinalis
+223,Digitaspb,sppB,BM,Aboveground biomass (g/m2) of Digitaria sp.
+224,Elymcanab,sppB,BM,Aboveground biomass (g/m2) of Elymus canadensis
+225,Eragspecb,sppB,BM,Aboveground biomass (g/m2) of Eragrostis spectabilis
+226,Erigcanab,sppB,BM,Aboveground biomass (g/m2) of Erigeron canadensis
+227,Erigerspb,sppB,BM,Aboveground biomass (g/m2) of Erigeron sp.
+228,Erigstrib,sppB,BM,Aboveground biomass (g/m2) of Erigeron strigosus
+229,Euphcorob,sppB,BM,Aboveground biomass (g/m2) of Euphorbia corollata
+230,Euphglypb,sppB,BM,Aboveground biomass (g/m2) of Euphorbia glyptosperma
+231,Festucspb,sppB,BM,Aboveground biomass (g/m2) of Festuca sp.
+232,Hedehispb,sppB,BM,Aboveground biomass (g/m2) of Hedeoma hispida
+233,Koelcrisb,sppB,BM,Aboveground biomass (g/m2) of Koeleria cristata
+234,Lepidensb,sppB,BM,Aboveground biomass (g/m2) of Lepidium densiflorum
+235,Lepidispb,sppB,BM,Aboveground biomass (g/m2) of Lepidium sp.
+236,Lespcapib,sppB,BM,Aboveground biomass (g/m2) of Lespedeza capitata
+237,Liataspeb,sppB,BM,Aboveground biomass (g/m2) of Liatris aspera
+238,Lupipereb,sppB,BM,Aboveground biomass (g/m2) of Lupinus perennis
+239,Lychalbab,sppB,BM,Aboveground biomass (g/m2) of Lychnis alba
+240,Medisatib,sppB,BM,Aboveground biomass (g/m2) of Medicago sativa
+241,Miscgrasb,sppB,BM,Aboveground biomass (g/m2) of Miscellaneous grasses
+242,Mischerbb,sppB,BM,Aboveground biomass (g/m2) of Miscellaneous herbs
+243,Misclittb,sppB,BM,Aboveground biomass (g/m2) of Miscellaneous litter
+244,Mollvertb,sppB,BM,Aboveground biomass (g/m2) of Mollugo verticillata
+245,Monafistb,sppB,BM,Aboveground biomass (g/m2) of Monarda fistulosa
+246,Mosslichb,sppB,BM,Aboveground biomass (g/m2) of Mosses & lichens
+247,Oenobienb,sppB,BM,Aboveground biomass (g/m2) of Oenothera biennis
+248,Panioligb,sppB,BM,Aboveground biomass (g/m2) of Panicum oligosanthes
+249,Panivirgb,sppB,BM,Aboveground biomass (g/m2) of Panicum virgatum
+250,Petapurpb,sppB,BM,Aboveground biomass (g/m2) of Petalostemum purpureum
+251,Physvirgb,sppB,BM,Aboveground biomass (g/m2) of Physalis virginiana
+252,Poaprateb,sppB,BM,Aboveground biomass (g/m2) of Poa pratensis
+253,Polyconvb,sppB,BM,Aboveground biomass (g/m2) of Polygonum convolvulus
+254,Polypolyb,sppB,BM,Aboveground biomass (g/m2) of Polygala polygama
+255,Polysp2b,sppB,BM,Aboveground biomass (g/m2) of Polygonum sp.
+256,Polytenub,sppB,BM,Aboveground biomass (g/m2) of Polygonum tenue
+257,Rudbserob,sppB,BM,Aboveground biomass (g/m2) of Rudbeckia serotina
+258,Rumeacetb,sppB,BM,Aboveground biomass (g/m2) of Rumex acetosella
+259,Schiscopb,sppB,BM,Aboveground biomass (g/m2) of Schizachyrium scoparium
+260,Sedgesb,sppB,BM,Aboveground biomass (g/m2) of Sedges
+261,Setarispb,sppB,BM,Aboveground biomass (g/m2) of Setaria sp.
+262,Sileantib,sppB,BM,Aboveground biomass (g/m2) of Silene antirrhina
+263,Silenespb,sppB,BM,Aboveground biomass (g/m2) of Silene sp.
+264,Solialtib,sppB,BM,Aboveground biomass (g/m2) of Solidago altissima
+265,Solimissb,sppB,BM,Aboveground biomass (g/m2) of Solidago missouriensis
+266,Solinemob,sppB,BM,Aboveground biomass (g/m2) of Solidago nemoralis
+267,Solirigib,sppB,BM,Aboveground biomass (g/m2) of Solidago rigida
+268,Sorgnutab,sppB,BM,Aboveground biomass (g/m2) of Sorghastrum nutans
+269,Sporcrypb,sppB,BM,Aboveground biomass (g/m2) of Sporobolus cryptandrus
+270,Trifolspb,sppB,BM,Aboveground biomass (g/m2) of Trifolium sp.
+271,Trifrepeb,sppB,BM,Aboveground biomass (g/m2) of Trifolium repens
+272,Vicivillb,sppB,BM,Aboveground biomass (g/m2) of Vicia villosa
+273,Woodyb,sppB,BM,Aboveground biomass (g/m2) of Woody species
+274,CovC3,Cov,photo,Absolute percent cover of C3 grasses (planted + nonplanted)
+275,CovC4,Cov,photo,Absolute percent cover of C4 grasses (planted + nonplanted)
+276,CovF,Cov,type,Absolute percent cover of forbs (planted + nonplanted)
+277,CovG,Cov,photo,"Absolute percent cover of grasses, photosynthetic pathway unknown"
+278,CovL,Cov,type,Absolute percent cover of legumes (planted + nonplanted)
+279,CovNPlt,Cov,inv,Absolute percent cover of non-planted species
+280,CovNonC3,Cov,photo_inv,Absolute percent cover of non-planted C3 grasses
+281,CovNonC4,Cov,photo_inv,Absolute percent cover of non-planted C4 grasses
+282,CovNonF,Cov,type_inv,Absolute percent cover of non-planted forbs
+283,CovNonL,Cov,type_inv,Absolute percent cover of non-planted legumes
+284,CovO,Cov,type,Absolute percent cover of other species
+285,CovS,Cov,type,Absolute percent cover of sedges
+286,CovTrt,Cov,inv,Absolute percent cover of planted species
+287,CovTrtC3,Cov,photo_inv,Absolute percent cover of planted C3 grasses
+288,CovTrtC4,Cov,photo_inv,Absolute percent cover of planted C4 grasses
+289,CovTrtF,Cov,type,Absolute percent cover of planted forbs
+290,CovTrtL,Cov,type,Absolute percent cover of planted legumes
+291,CovW,Cov,type,Absolute percent cover of woody plants
+292,BioC3,Bio,photo,Aboveground biomass (g/m2) of C3 grasses (planted + nonplanted)
+293,BioC4,Bio,photo,Aboveground biomass (g/m2) of C4 grasses (planted + nonplanted)
+294,BioF,Bio,type,Aboveground biomass (g/m2) of forbs (planted + nonplanted)
+295,BioG,Bio,photo,"Aboveground biomass (g/m2) of grasses, photosynthetic pathway unknown"
+296,BioL,Bio,type,Aboveground biomass (g/m2) of legumes (planted + nonplanted)
+297,BioNPlt,Bio,inv,Aboveground biomass (g/m2) of non-planted species
+298,BioNonC3,Bio,photo_inv,Aboveground biomass (g/m2) of non-planted C3 grasses
+299,BioNonC4,Bio,photo_inv,Aboveground biomass (g/m2) of non-planted C4 grasses
+300,BioNonF,Bio,type_inv,Aboveground biomass (g/m2) of non-planted forbs
+301,BioNonL,Bio,type_inv,Aboveground biomass (g/m2) of non-planted legumes
+302,BioS,Bio,type,Aboveground biomass (g/m2) of sedges
+303,BioTrt,Bio,inv,Aboveground biomass (g/m2) of planted species
+304,BioTrtC3,Bio,photo_inv,Aboveground biomass (g/m2) of planted C3 grasses
+305,BioTrtC4,Bio,photo_inv,Aboveground biomass (g/m2) of planted C4 grasses
+306,BioTrtF,Bio,type_inv,Aboveground biomass (g/m2) of planted forbs
+307,BioTrtL,Bio,type_inv,Aboveground biomass (g/m2) of planted legumes
+308,BioW,Bio,type,Aboveground biomass (g/m2) of woody plants
